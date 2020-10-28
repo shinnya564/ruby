@@ -1,11 +1,11 @@
 
 def fizz_buzz(number)
-	if number % 3 == 0
-		puts "fuzz"
+	if number % 15 == 0
+		puts "fuzz_buzz"
 	elsif number % 5 == 0
 		puts "buzz"
-	elsif number % 15 == 0
-		puts "fuzz_buzz"
+	elsif number % 3 == 0
+		puts "fuzz"
 	else
 		puts number.to_s
 	end
